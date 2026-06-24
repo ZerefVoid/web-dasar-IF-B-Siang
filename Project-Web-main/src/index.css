@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #8B4513;
+  --color-primary-dark: #5D2E0C;
+  --color-accent: #2E8B57;
+  --color-accent-light: #3CB371;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.gradient-forest {
+  background: linear-gradient(135deg, #1B4332 0%, #2E8B57 50%, #3CB371 100%);
+}
+
+.gradient-earth {
+  background: linear-gradient(135deg, #8B4513 0%, #A67C52 50%, #D2B48C 100%);
+}
+
+.text-shadow-lg {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.badge-friend {
+  background: linear-gradient(135deg, #CD7F32 0%, #B87333 100%);
+  color: white;
+}
+
+.badge-protector {
+  background: linear-gradient(135deg, #C0C0C0 0%, #A8A8A8 100%);
+  color: #1a1a1a;
+}
+
+.badge-guardian {
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  color: #1a1a1a;
+}

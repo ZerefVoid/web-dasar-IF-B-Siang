@@ -1,4 +1,4 @@
-# Orangutan Haven Management System
+# Orangutan Haven Donation System
 
 A full-stack web application developed to support orangutan conservation efforts through information management, donation tracking, and sanctuary administration.
 
